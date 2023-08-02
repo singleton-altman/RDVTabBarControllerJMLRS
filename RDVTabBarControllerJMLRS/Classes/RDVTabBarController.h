@@ -44,9 +44,9 @@
 @property (nonatomic, readonly) RDVTabBar *tabBar;
 
 /**
- * Sets the height of tab bar.
+ * Sets the size of tab bar.
  */
-- (void)setTabBarHeight:(CGFloat)height;
+- (void)setTabBarSize:(CGSize)size;
 
 /**
  * The view controller associated with the currently selected tab item.
